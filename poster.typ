@@ -70,7 +70,7 @@
   body
 ) = {
   // Set the body font.
-  set text(font: "TH SarabunPSK", size: 16pt)
+  set text(font: "TH SarabunPSK", size: 18pt)
   let sizes = size.split("x")
   let width = int(sizes.at(0)) * 1in
   let height = int(sizes.at(1)) * 1in

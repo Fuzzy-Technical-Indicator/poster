@@ -39,10 +39,37 @@
 = จุดประสงค์
 
 1. เพื่อพัฒนา Fuzzy Logic ร่วมกับ Particle Swarm Optimization (PSO) สําหรับการสร้างวิธีการซื้อขายเฉพาะของแต่ละสินทรัพย์
-2. เพื่อสร้างเว็บไซต์เพื่อทดสอบระบบของเรา
+2. เพื่อสร้างเว็บไซต์ไว้ใช้งานระบบของเรา
 
 = วิธีการ
 
+เริ่มทดสอบที่ 1 ตุลาคม 2023 ถึง ...
+
 = ผลลัพธ์
+
+#align(center)[
+#figure(table(
+  columns: (auto, auto, auto, auto, auto, auto),
+  [Symbol], [Classical], [Fuzzy], [Fuzzy C], [FuzzyPSO], [Fuzzy C PSO],
+  [BTC], [], [], [], [], [],
+  [ETH], [], [], [], [], [],
+  [BNB], [], [], [], [], []
+), caption: [crypto], supplement: [ตารางที่])
+
+#figure(table(
+  columns: (auto, auto, auto, auto, auto, auto),
+  [Symbol], [Classical], [Fuzzy], [Fuzzy C], [Fuzzy PSO], [Fuzzy C PSO],
+  [AAPL], [], [], [], [], [],
+  [IBM], [], [], [], [], [],
+  [JPM], [], [], [], [], [],
+  [MSFT], [], [], [], [], [],
+  [NKE], [], [], [], [], [],
+  [TSLA], [], [], [], [], []
+), caption: [stock], supplement: [ตารางที่])
+
+#figure(image("crypto.png"))
+
+#figure(image("stock.png"))
+]
 
 = สรุป
