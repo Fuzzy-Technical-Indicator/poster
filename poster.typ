@@ -55,7 +55,7 @@
   title_column_size: "20",
 
   // Poster title's font size (in pt).
-  title_font_size: "48",
+  title_font_size: "52",
 
   // Authors' font size (in pt).
   authors_font_size: "36",
@@ -90,6 +90,7 @@
     height: height,
     margin: 
       (top: 1in, left: 2in, right: 2in, bottom: 2in),
+    /*
     footer: [
       #set align(center)
       #set text(32pt)
@@ -107,6 +108,7 @@
         ]
       )
     ]
+    */
   )
 
   // Configure equation numbering and spacing.
@@ -178,7 +180,7 @@
 
   // Start three column mode and configure paragraph properties.
   show: columns.with(num_columns, gutter: 64pt)
-  set par(justify: true, first-line-indent: 0em)
+  set par(justify: true, first-line-indent: 1em)
   show par: set block(spacing: 0.65em)
 
   // Display the keywords.
