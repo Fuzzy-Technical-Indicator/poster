@@ -170,7 +170,7 @@
       rows: 2,
       columns: (univ_logo_column_size, title_column_size),
       column-gutter: 0pt,
-      row-gutter: 50pt,
+      row-gutter: 30pt,
       image(univ_logo, width: univ_logo_scale),
       text(title_font_size, title + "\n\n") + 
       text(authors_font_size, emph(authors) + 
@@ -180,7 +180,7 @@
 
   // Start three column mode and configure paragraph properties.
   show: columns.with(num_columns, gutter: 64pt)
-  set par(justify: true, first-line-indent: 1em)
+  set par(justify: false, first-line-indent: 1em)
   show par: set block(spacing: 0.65em)
 
   // Display the keywords.
