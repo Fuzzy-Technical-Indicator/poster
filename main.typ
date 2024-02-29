@@ -5,7 +5,7 @@
   title: "ระบบสนับสนุนการตัดสินใจซื้อขายสินทรัพย์ด้วยฟัซซีโลจิก",
   authors: "ธนัตถ์ ตั้งอั้น, ธนวัตน์ บําเพ็งพันธ์ุ",
   departments: "คณะวิศวกรรมศาสตร์ ภาควิชาวิศวกรรมคอมพิวเตอร์",
-  univ_logo: "Chiang_mai_university_logo.png",
+  univ_logo: "Chiang_mai_university_logo.svg",
   footer_text: "",
   footer_url: "",
   footer_email_ids: "",
@@ -83,9 +83,9 @@
   [TSLA], [*150.11*], [-65.41], [-92.88], [-65.41], [-92.71]
 ), caption: [กำไรสุทธิของหุ้นในตลาดหุ้น NASDAQ], supplement: [ตารางที่]) <table2>
 
-#figure(image("crypto.png"), caption: [การเปลี่ยนแปลงของเงินลงทุนสำหรับแต่ละวิธีในตลาด Crypto Currency], supplement: [รูปที่]) <crypto_g>
+#figure(image("crypto.svg"), caption: [การเปลี่ยนแปลงของเงินลงทุนสำหรับแต่ละวิธีในตลาด Crypto Currency], supplement: [รูปที่]) <crypto_g>
 
-#figure(image("stock.png"), caption: [การเปลี่ยนแปลงของเงินลงทุนสำหรับแต่ละวิธีในตลาดหุ้น NASDAQ], supplement: [รูปที่]) <stock_g>
+#figure(image("stock.svg"), caption: [การเปลี่ยนแปลงของเงินลงทุนสำหรับแต่ละวิธีในตลาดหุ้น NASDAQ], supplement: [รูปที่]) <stock_g>
 ]
 
 = สรุปผล
