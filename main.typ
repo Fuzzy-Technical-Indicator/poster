@@ -2,7 +2,7 @@
 
 #show: poster.with(
   size: "24x36",
-  title: "ระบบสนับสนุนการตัดสินใจซื้อขายสินทรัพย์ด้วยฟัซซีโลจิก\nFuzzy Technical Indicator",
+  title: "ระบบสนับสนุนการตัดสินใจซื้อขายสินทรัพย์ด้วยฟัซซีโลจิก\nFuzzy Logic in Market Trading Decision Support System",
   authors: "ธนัตถ์ ตั้งอั้น, ธนวัตน์ บําเพ็งพันธ์ุ",
   departments: "คณะวิศวกรรมศาสตร์ ภาควิชาวิศวกรรมคอมพิวเตอร์",
   univ_logo: "Chiang_mai_university_logo.svg",
