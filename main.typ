@@ -2,7 +2,7 @@
 
 #show: poster.with(
   size: "24x36",
-  title: "ระบบสนับสนุนการตัดสินใจซื้อขายสินทรัพย์ด้วยฟัซซีโลจิก",
+  title: "ระบบสนับสนุนการตัดสินใจซื้อขายสินทรัพย์ด้วยฟัซซีโลจิก\nFuzzy Technical Indicator",
   authors: "ธนัตถ์ ตั้งอั้น, ธนวัตน์ บําเพ็งพันธ์ุ",
   departments: "คณะวิศวกรรมศาสตร์ ภาควิชาวิศวกรรมคอมพิวเตอร์",
   univ_logo: "Chiang_mai_university_logo.svg",
@@ -14,7 +14,7 @@
   // Use the following to override the default settings
   // for the poster header.
   num_columns: "2",
-  univ_logo_scale: "55",
+  univ_logo_scale: "45",
   title_font_size: "34",
   authors_font_size: "20",
   univ_logo_column_size: "3",
@@ -97,11 +97,16 @@
 
 ดังนั้นด้วยความสามารถของ Fuzzy Logic ในการจัดการกับข้อมูลที่มีความผันผวน และไม่แน่นอนของข้อมูล ทำให้เราเห็นว่าการใช้ Fuzzy Logic ในการสร้างอินดิเคเตอร์ใหม่นั้นเป็นวิธีให้ผลลัพธ์ที่ดีกว่าการใช้ตัวเลขธรรมดาแบบ Classical
 
+= ตัวอย่างเว็บแอพพลิเคชัน
+#align(center)[
+  #figure(image("web-preview.svg"), caption: [เว็บแอพพลิเคชันระบบสนับสนุนการตัดสินใจซื้อขายสินทรัพย์ด้วยฟัซซีโลจิก], supplement: [รูปที่]) <fzt_preview>
+]
 
-/*
+// QR Code section
+
 #place(
-dx: -535pt,
-dy: 50pt,
+dx: 250pt,
+dy: 125pt,
 figure(
   rect(stroke: 1pt)[
     #figure(image("qr-code.svg", width: 25%)) <live_web_qr_code>
@@ -110,12 +115,13 @@ figure(
 )
 
 #place(
-  dx: -400pt,
-  dy: 115pt,
+  dx: 152pt,
+  dy: 350pt,
   rect(stroke: none)[
-  สแกนเพื่อเข้า \
-  เว็บแอพพลิเคชันของระบบสนับสนุนการตัดสินใจซื้อขายสินทรัพย์ด้วยฟัซซีโลจิก \
-  #link("https://cmu.to/FZT")
+  #align(center)[
+    สแกนเพื่อเข้าชม \
+    เว็บแอพพลิเคชันของระบบสนับสนุนการตัดสินใจซื้อขายสินทรัพย์ด้วยฟัซซีโลจิก \
+    #link("https://cmu.to/FZT")
+  ]
   ]
 )
-*/
